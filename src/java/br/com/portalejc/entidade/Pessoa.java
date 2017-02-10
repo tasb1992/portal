@@ -14,7 +14,7 @@ public class Pessoa {
     private String endereco;
     private String bairro;
     private String cidade;
-    private Integer dnascimento;
+    private String dnascimento;
 
     public String getNome() {
         return nome;
@@ -48,11 +48,11 @@ public class Pessoa {
         this.cidade = cidade;
     }
 
-    public Integer getDnascimento() {
+    public String getDnascimento() {
         return dnascimento;
     }
 
-    public void setDnascimento(Integer dnascimento) {
+    public void setDnascimento(String dnascimento) {
         this.dnascimento = dnascimento;
     }
     
